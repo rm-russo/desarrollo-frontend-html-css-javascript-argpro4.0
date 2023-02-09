@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .box {
+            display: flex;
+            flex-flow: column;
+            height: 100%;
+        }
+
+        .box .row {
+            border: 1px dotted #0313fc;
+        }
+
+        .box .row.header {
+            flex: 0 1 auto;
+        }
+
+        .box .row.content {
+            flex: 1 1 auto;
+        }
+
+        .box .row.footer {
+            flex: 0 1 40px;
+        }
+    </style>
+</head>
+<div class="box"> <!--Seccion imagen de perfil-->
+    <div class="row content">
+    </div>
+    <!--Seccion Nombre y puesto-->
+    <div class="row content">
+        <img src="https://randomuser.me/api/portraits/men/97.jpg" alt="No se pudo cargar imagen">
+        <h1>Antonio Montana</h1>
+        <p>Analista Qa Ssr.</p>
+    </div>
+</div>
+
+
+<body>
+
+</body>
+
+</html>
